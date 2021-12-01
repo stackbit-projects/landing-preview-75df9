@@ -31,6 +31,7 @@ class MyDocument extends Document {
     }
 
     render() {
+        alert(1);
         return (
             <Html {...this.helmetHtmlAttrComponents}>
                 <Head>{this.helmetHeadComponents}</Head>
